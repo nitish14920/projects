@@ -1,0 +1,9 @@
+.list1{
+    list-style-type: disc;
+}
+.list2 li:nth-child(4){
+    list-style-type: circle;
+}
+.list2 li:nth-child(2){
+    list-style-type: square;
+}

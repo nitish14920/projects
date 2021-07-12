@@ -1,0 +1,116 @@
+.blue{
+    background-color: rgb(50, 50, 104);
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.red{
+    background-color: rgb(151, 29, 29);
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.green{
+    background-color: rgb(9, 184, 9);
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.yellow{
+    background-color: rgb(204, 204, 35);
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.purple{
+    background-color: purple;
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.orange{
+    background-color: rgb(231, 160, 27);
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.pink{
+    background-color:rgb(230, 123, 141);
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.gold{
+    background-color: rgb(192, 167, 28);
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:rgb(252, 252, 252);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.gray{
+    background-color: rgb(95, 91, 91);
+    width:100px;
+    text-align:center;
+    border-radius:12px;
+    height:30px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+.container{
+    display: flex;
+    width: 230px;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 200px;
+    justify-content: space-between;
+}

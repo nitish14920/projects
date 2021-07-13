@@ -6,7 +6,11 @@ export function Todolist({hhff}){
         
         {
             hhff.map(el=>
-                <div>{el}</div>
+                <div key={el.id}>
+                <h3 >{el.title}</h3>
+                Status:{`${el.status}`}
+                </div>
+                
             )
         }
         </>

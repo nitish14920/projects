@@ -1,5 +1,9 @@
 .main_div{
-  background-color: rgb(59, 17, 59);
+  background-color: rgb(185, 60, 44);
   
   height: 1000px;
+}
+.bg_grid{
+  background-color: rgb(92, 14, 14);
+  height: 30%;
 }

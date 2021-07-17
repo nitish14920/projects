@@ -9,9 +9,10 @@ export function Todoinput({ handleAddTodo}){
     
     return(
 
-        <div>
+        <form>
             <input type="text" onChange={(e)=>setText(e.target.value)} />
-            <button onClick={()=>{
+            <button onClick={(e)=>{
+                e.preventDefault()
                 const payload = {
                     id:uuid(),
                     title:text,
@@ -23,6 +24,6 @@ export function Todoinput({ handleAddTodo}){
                 
             }>Add</button>
             
-        </div>
+        </form>
     )
 }
